@@ -2,5 +2,6 @@
 
 int main(){
     double number;
-    scanf("You entered: %.2f",number);
+    scanf(number);
+    printf("You entered: %.2f",number);
 }
