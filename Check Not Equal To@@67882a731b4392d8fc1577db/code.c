@@ -5,6 +5,6 @@ int main() {
     if(n1==n2){
         printf("False");
     }else{
-        printf("True")
+        printf("True");
     }
 }
