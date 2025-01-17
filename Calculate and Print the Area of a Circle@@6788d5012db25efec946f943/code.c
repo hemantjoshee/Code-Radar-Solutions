@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
     double radius;
-    const double pi=3.14;
+    double pi=3.14;
     scanf("%lf",radius);
-    double circle=pi*(radius)**2;
+    double circle=pi*radius*radius;
     printf("Area: %.2f", circle);
     return 0;
 }
