@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main() {
-    int i,j,k;
+    int i ;
+    int j ;
+    int k;
     scanf("%d %d %d",&i,&j,&k);
-    int l=i+j+k;
-    int m=l/3;
-    printf("Average: %lf", m);
+    float l=(i+j+k)/3;
+    
+    printf("Average: %lf", l);
     return 0;
 }
