@@ -9,7 +9,7 @@ int main() {
     }else if(a==2){
         isprime=1;
     }else{
-        for(int i=0;i<=sqrt(n);i++){
+        for(int i=0;i<=sqrt(a);i++){
             if (n%i)==0{
                 isprime=0;
                 break;
