@@ -6,11 +6,11 @@ char* welcome() {
 
 int main() {
     char a;
-    scanf("%d",&a);
+    scanf("%c",&a);
     switch (a){
-        case 'a':printf("Excellent");
+        case 'A':printf("Excellent");
         break;
-        case 'b':printf("Good");
+        case 'B':printf("Good");
         break;
         case 'C':printf("Average");
         break;
