@@ -8,9 +8,9 @@ int main() {
     char a;
     scanf("%d",&a);
     switch (a){
-        case 'A':printf("Excellent");
+        case 'a':printf("Excellent");
         break;
-        case 'B':printf("Good");
+        case 'b':printf("Good");
         break;
         case 'C':printf("Average");
         break;
