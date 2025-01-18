@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a,b;
-    scanf("%d %d",a,b);
+    scanf("%d %d",&a,&b);
     int c=b-a;
     if(c>0){
         printf("Profit");
