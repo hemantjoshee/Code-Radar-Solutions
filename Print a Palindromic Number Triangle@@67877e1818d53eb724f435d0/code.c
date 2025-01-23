@@ -16,9 +16,8 @@ int main() {
             if(j<i){
                 printf("%d",a);
                 a++;
-            }else if(j==i){
-                printf("%d",a);
-            }else{
+            }
+            else{
                 printf("%d",a);
                 a--;
             }
