@@ -12,12 +12,12 @@ int main(){
     }
     int prime=0;
     for(int i=0;i<n;i++){
-        prime+=isPrime(i);
+        prime+=isPrime(arr[i]);
     }
     printf("%d",prime);
 }
 int isPrime(int a){
-    if (n==2){
+    if (a==2){
         return 1;
     }
     for(int i=2;i<a;i++){
