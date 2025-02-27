@@ -14,9 +14,12 @@ int main(){
     for(int i=0;i<n;i++){
         prime+=isPrime(i);
     }
-    printf("%d",&prime);
+    printf("%d",prime);
 }
 int isPrime(int a){
+    if (n==2){
+        return 1;
+    }
     for(int i=2;i<a;i++){
         if (a%i==0){
             return 0;
