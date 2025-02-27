@@ -13,11 +13,11 @@ int main(){
     largest=arr[0];
     sLargest=-1;
     for(int i=0;i<n;i++){
-        if arr[i]>largest{
+        if (arr[i])>largest{
             largest=arr[i];
             sLargest=largest;
         }
-        if arr[i]<largest && arr[i]>sLargest{
+        if (arr[i]<largest && arr[i]>sLargest){
             sLargest=arr[i];
         }
     }
