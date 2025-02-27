@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <c.math>
+#include <math.h>
 isPrime(int a);
 int main(){
     int n;
