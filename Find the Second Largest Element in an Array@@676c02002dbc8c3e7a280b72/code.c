@@ -13,9 +13,9 @@ int main(){
     largest=arr[0];
     sLargest=-1;
     for(int i=0;i<n;i++){
-        if (arr[i])>largest{
-            largest=arr[i];
+        if (arr[i]>largest){
             sLargest=largest;
+            largest=arr[i];
         }
         if (arr[i]<largest && arr[i]>sLargest){
             sLargest=arr[i];
