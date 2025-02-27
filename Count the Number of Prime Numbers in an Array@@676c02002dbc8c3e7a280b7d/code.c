@@ -23,7 +23,7 @@ int isPrime(int a){
     else if (a==2){
         return 1;
     }
-    for(int i=2;i<a;i++){
+    for(int i=2;i<sqrt(a);i++){
         if (a%i==0){
             return 0;
         }
