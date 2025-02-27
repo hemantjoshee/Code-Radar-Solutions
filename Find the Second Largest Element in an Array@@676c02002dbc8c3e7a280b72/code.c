@@ -22,7 +22,7 @@ int main(){
             sLargest=arr[i];
         }
     }
-    (sLargest==INT_MIN) ? printf("%d",-1) : printf("%d",sLargest);
+   // (sLargest==INT_MIN) ? printf("%d",-1) : printf("%d",sLargest);
     
 
 }
