@@ -18,5 +18,8 @@ int main(){
             printf("%d",hash[arr[i]]);
             break;
         }
+        else{
+            printf("-1");
+        }
     }
 }
