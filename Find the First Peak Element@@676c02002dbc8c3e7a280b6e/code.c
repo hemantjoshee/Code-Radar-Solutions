@@ -12,17 +12,17 @@ int main(){
         if (i==0){
             if(arr[i]>arr[i+1]){
                 printf("%d",arr[i]);
-                break;
+                return 0;
             }
         }
         else if (arr[i]>arr[i+1]&&arr[i]>arr[i-1]){
             printf("%d",arr[i]);
-            break;
+            return 0;
         }
         else if(i==n-1){
             if(arr[i]>arr[i-1]){
                 printf("%d",arr[i]);
-                break;
+                return 0;
             }
         }
         else{
