@@ -14,7 +14,7 @@ int main(){
     }
 
     for(int i=0;i<n;i++){
-        if hash[arr[i]]==2{
+        if (hash[arr[i]]==2){
             printf("%d",hash[arr[i]]);
             break;
         }
