@@ -2,10 +2,11 @@
 int findUnsortedSubarray(int a[],int n){
     int l = 0 ;
     int r = n - 1 ;
-    while ( l < n - 1 && a[l] < a[l+1]){
+    while ( l < n - 1 && a[l] <= a[l+1]){
         l++;
     }
-    while ( r>0 && a[r]>a[r-1]){
+    if (l==n-1) return 0;
+    while ( r>0 && a[r]>=a[r-1]){
         r--;
     }
 
@@ -21,5 +22,5 @@ int findUnsortedSubarray(int a[],int n){
     while(r<n-1 &&a[r+1]<max){
         r++;
     }
-    return r-l+1
+    return r-l+1;
 }
