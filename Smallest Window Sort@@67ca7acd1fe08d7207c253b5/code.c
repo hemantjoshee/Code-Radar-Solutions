@@ -1,14 +1,12 @@
-int findUnsortedSubarray(int arr[],int n);
-for(int i=0;i<n;i++){
-    if(arr[i]==i+1){
-        continue;
+int findUnsortedSubarray(int arr[],int n){
+    int l=0;
+    int r=n-1;
+    while (l<n && arr[l]>=arr[l-1]){
+        l++;
     }
-    else{
-        for(int l=a[i];l<n;l++){
-            if(arr[l]==l+1){
-                int r=l;
-                return r-l;
-            }
-        }
+    while (r>0 && arr[r]>=arr[r-1]){
+        r--;
     }
+    return r-l+1;
+    
 }
