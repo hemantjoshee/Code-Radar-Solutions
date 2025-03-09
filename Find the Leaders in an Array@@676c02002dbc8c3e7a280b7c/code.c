@@ -1,7 +1,7 @@
 #include <stdio.h>
 int* reverse(int arr[]){
     int start=0;
-    int end =(sizeof(arr[])/4)-1;
+    int end =(sizeof(arr)/4)-1;
     while(start>end){
         int temp=arr[start];
         arr[start]=arr[end];
