@@ -1,15 +1,14 @@
 #include <stdio.h>
-int* reverse(int arr[]){
+void reverse(int arr[],int n){
     int start=0;
     int end =(sizeof(arr)/4)-1;
-    while(start>end){
+    while(start<end){
         int temp=arr[start];
         arr[start]=arr[end];
         arr[end]=temp;
         start++;
         end--;
     }
-    return arr[];
 }
 int main(){
     int n;
@@ -19,9 +18,10 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int i=n-1;
     int max=arr[i];
     int j=0;
-    for(int i=n-1;i>0;i--){
+    for(i;i>0;i--){
         if(arr[i]>=max){
             arr2[j++]=arr[i];
         }
