@@ -1,11 +1,15 @@
 void selectionSort(int arr[],int n){
-    int min=arr[0];
     for(int i=0;i<n;i++){
+        int min=i;
         for(int j=i+1;j<n;j++){
             if(arr[j]<min){
-                min=arr[j];
+                min=j;
             }
         }
+        int temp=arr[i];
+        arr[i]=arr[min];
+        arr[min]=temp;
+        
     }
 }
 void printArray(int arr[],int n){
