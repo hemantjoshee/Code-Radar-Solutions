@@ -10,10 +10,8 @@ int main(){
         scanf("%d",&arr[i]);
         hash[arr[i]]++;
     }
-    for(int i=0;i<Max;i++){
+    for(int i=0;i<n;i++){
         if(!visited[arr[i]])
             printf("%d %d\n",arr[i],hash[arr[i]]);
         }
-    }
-
 }
