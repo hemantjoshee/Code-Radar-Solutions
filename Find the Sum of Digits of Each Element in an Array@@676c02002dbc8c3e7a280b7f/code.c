@@ -23,5 +23,8 @@ int sumo(int a){
         a=a/10;
 
     }
+    if (n<0){
+        return -n;
+    };
     return n;
 }
