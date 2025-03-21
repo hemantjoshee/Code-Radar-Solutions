@@ -11,11 +11,11 @@ int main(){
     int smallest=INT_MAX;
     int ss=INT_MAX;
     for(int i=0;i<n;i++){
-        if(arr[i]>smallest){
+        if(arr[i]<smallest){
             ss=smallest;
             smallest=arr[i];
         }
-        if(arr[i]>ss && arr[i]<smallest){
+        if(arr[i]<ss && arr[i]>smallest){
             ss=arr[i];
         }
     }
