@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define Max 100
+#define Max 1000
 int main(){
     int n;
     scanf("%d",&n);
@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
         hash[arr[i]]++;
     }
-    for(int i=0;i<=Max;i++){
+    for(int i=0;i<Max;i++){
         if(hash[i]>0){
             printf("%d %d\n",i,hash[i]);
         }
