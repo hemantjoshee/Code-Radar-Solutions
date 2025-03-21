@@ -15,7 +15,7 @@ int main(){
 
     for(int i=0;i<n;i++){
         if (hash[arr[i]]==2){
-            printf("%d",hash[i]);
+            printf("%d",i);
             return 0;
         }
         
