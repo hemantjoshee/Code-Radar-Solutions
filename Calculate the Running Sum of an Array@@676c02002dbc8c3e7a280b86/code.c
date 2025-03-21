@@ -13,7 +13,7 @@ int main(){
         sumo[i]=sum;
     }
     for(int i=0;i<n;i++){
-        printf("%d ",&sumo[i]);
+        printf("%d ",sumo[i]);
     }
 
 }
