@@ -9,7 +9,7 @@ int main(){
     int largest=-1;
     for(int i=0;i<n;i++){
         if(i>largest&&i%2==0){
-            largest=i;
+            largest=arr[i];
         }
     }
     printf("%d",largest);
