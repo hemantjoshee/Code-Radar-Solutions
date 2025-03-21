@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int temp[];
+    int temp[n];
     arr=temp;
     for(int i=0;i<n;i++){
         arr[i]=sumo(temp[i]);
