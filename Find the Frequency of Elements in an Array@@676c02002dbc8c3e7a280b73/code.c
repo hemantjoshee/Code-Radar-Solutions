@@ -5,13 +5,14 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     int hash[Max]={0};
+    int visited[Max]={0};
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         hash[arr[i]]++;
     }
     for(int i=0;i<Max;i++){
-        if(hash[i]>=0){
-            printf("%d %d\n",i,hash[i]);
+        if(!visited[arr[i]])
+            printf("%d %d\n",arr[i],hash[arr[i]]);
         }
     }
 
