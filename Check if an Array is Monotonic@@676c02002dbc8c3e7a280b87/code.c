@@ -19,11 +19,11 @@ int main(){
             descending=false;
         }
     }
-    if(ascending==false||descending==false){
-        printf("NO");
+    if(ascending||descending){
+        printf("YES");
     }
     else{
-        printf("YES");
+        printf("NO");
     }
 
 }
