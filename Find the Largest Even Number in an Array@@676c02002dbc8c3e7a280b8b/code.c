@@ -13,5 +13,5 @@ int main(){
         }
     }
 
-    printf("%d",largest);
+    largest!=1000 ? printf("%d",largest) : printf(-1);
 }
