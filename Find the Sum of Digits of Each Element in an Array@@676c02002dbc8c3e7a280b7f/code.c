@@ -8,7 +8,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int temp[n];
-    arr=temp;
+    for (int i = 0; i < size; i++) {
+        temp[i] = arr[i];
+    }
     for(int i=0;i<n;i++){
         arr[i]=sumo(temp[i]);
 
