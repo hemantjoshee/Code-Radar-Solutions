@@ -8,13 +8,13 @@ int main(){
         scanf("%d",&a);
         arr[i]=a;
     }
-    int hash[1000];
+    int hash[1000]={0};
     for(int i=0;i<n;i++){
         hash[arr[i]]++;
     }
 
     for(int i=0;i<n;i++){
-        if (hash[arr[i]]==2){
+        if (hash[i]==2){
             printf("%d",i);
             return 0;
         }
