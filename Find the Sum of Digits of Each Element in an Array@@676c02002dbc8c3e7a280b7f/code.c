@@ -8,12 +8,12 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int temp[n];
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < n; i++) {
         temp[i] = arr[i];
     }
     for(int i=0;i<n;i++){
         arr[i]=sumo(temp[i]);
-
+        printf("%d ",arr[i]);
     }
 }
 int sumo(int a){
