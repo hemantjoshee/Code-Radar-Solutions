@@ -1,1 +1,3 @@
-// Your code here...c xc
+void factorialRange (int a,int b){
+    
+}
