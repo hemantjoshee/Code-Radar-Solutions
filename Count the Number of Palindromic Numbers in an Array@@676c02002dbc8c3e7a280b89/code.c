@@ -20,8 +20,6 @@ int main(){
             count++;
         }
     }
-    for(int i=0;i<a;i++){
-        printf("%d",&arr[i]);
-    }
+        printf("%d",count);
 
 }
