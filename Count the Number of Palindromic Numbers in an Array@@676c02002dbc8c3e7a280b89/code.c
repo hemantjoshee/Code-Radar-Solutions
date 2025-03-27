@@ -7,6 +7,10 @@ int ispalendrome(int a){
         temp+=a%10;
         a=a/10;
     }
+    if temp=reverse{
+        return 1;
+    }
+    return 0;
 }
 int main(){
     int a;
