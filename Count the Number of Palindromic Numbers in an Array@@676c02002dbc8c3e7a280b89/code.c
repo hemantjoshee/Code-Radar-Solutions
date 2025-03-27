@@ -1,13 +1,16 @@
 #include <stdio.h>
 int ispalendrome(int a){
     int reverse=a;
+    if (a<0){
+        return 0;
+    }
     int temp=0;
     while(a){
         temp=temp*10;
         temp+=a%10;
         a=a/10;
     }
-    if (temp=reverse){
+    if (temp==reverse){
         return 1;
     }
     return 0;
