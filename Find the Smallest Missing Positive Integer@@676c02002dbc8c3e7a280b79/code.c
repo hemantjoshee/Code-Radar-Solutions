@@ -8,10 +8,10 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         if(arr[i]>0){
-        hash[arr[i]]++;
+        hash[arr[i]]=1;
         }    
     }
-    for(int i=1;i<n;i++){
+    for(int i=1;i<1000;i++){
         if(hash[i]==0){
             printf("%d",i);
             break;
