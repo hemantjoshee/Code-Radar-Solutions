@@ -11,7 +11,7 @@ int main(){
         hash[arr[i]]=1;
         }    
     }
-    for(int i=1;i<;i++){
+    for(int i=1;i<n;i++){
         if(hash[i]==0){
             printf("%d",i);
             break;
