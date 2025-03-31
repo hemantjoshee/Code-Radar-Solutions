@@ -1,5 +1,5 @@
 #include <stdio.h>
-void reverse(int arr[],,int start,int end){
+void reverse(int arr[],int start,int end){
     
     while(start<end){
         int temp=arr[start];
@@ -17,6 +17,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int k;
+    scanf("%d",&k);
     k=k%n;
     reverse(arr,0,n-1);
     reverse(arr,0,k);
