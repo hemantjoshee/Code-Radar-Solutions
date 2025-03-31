@@ -8,7 +8,7 @@ int main(){
         scanf("%d",arr[i]);
     }
     int hash[n];
-    for(int i=0;i<max;i++){
+    for(int i=0;i<n;i++){
         (hash[arr[i]])++
     }
     for(int i=0;i<n;i++){
