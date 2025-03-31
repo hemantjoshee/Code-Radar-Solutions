@@ -6,7 +6,9 @@ int main(){
     int hash[1000];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
+        if(i>0){
         hash[arr[i]]++;
+        }    
     }
     for(int i=0;i<n;i++){
         if(hash[i]==0){
