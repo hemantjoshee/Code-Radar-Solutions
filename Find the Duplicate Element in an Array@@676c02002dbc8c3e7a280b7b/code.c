@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
         hash[arr[i]]++;
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<1000;i++){
         if (hash[i]>1){
             printf("%d",i);
         }
