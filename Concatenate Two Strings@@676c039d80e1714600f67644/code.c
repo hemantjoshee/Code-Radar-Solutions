@@ -8,6 +8,6 @@ int main(){
     star[strcspn(star,"\n")]='\0';
     fgets(str,sizeof(str),stdin);
     str[strcspn(str,"\n")]='\0';
-    star3=strcat(star,str);
-    printf("%s",star3);
+    strcat(star,str);
+    printf("%s",star);
 }
