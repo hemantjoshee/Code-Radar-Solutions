@@ -3,7 +3,7 @@
 int main(){
     char str[100];
     fgets(str,sizeof(str),stdin);
-    str[strcspan(str,"\n")]="\0";
+    str[strcspn(str,"\n")]='\0';
     int len=strlen(str);
     char temp;
     for(int i=0;i<len/2;i++){
