@@ -13,7 +13,7 @@ int main(){
         star[i]=star[len-i-1];
         star[len-i-1]=temp;
     }
-    if (str==star){
+    if (strcmp(str,star)==0){
         printf("Yes");
         return 0;
     }
