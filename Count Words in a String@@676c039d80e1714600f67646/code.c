@@ -9,13 +9,13 @@ int main(){
     int count=0;
 
     for(int i=0;star[i]!='\0';i++){
-        if(!isspace[i]&&isWord==0){
+        if(!ispace[i]&&isWord==0){
             count++;
             isWord++;
         }
-        if(isspace[i]){
+        if(ispace[i]){
             isWord--;
         }
     }
-    primtf("%d",count);
+    printf("%d",count);
 }
