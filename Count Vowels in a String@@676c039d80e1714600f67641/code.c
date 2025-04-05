@@ -7,6 +7,7 @@ int main(){
     int count=0;
     int len=strlen(star);
     for(int i=0;i<len;i++){
+        star[i]=tolower(star[i]);
         if(star[i]=='i'||star[i]=='e'||star[i]=='a'||star[i]=='o'||star[i]=='u'){
             count++;
         }
