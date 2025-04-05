@@ -7,9 +7,9 @@ int main(){
     int count=0;
     int len=strlen(star);
     for(int i=0;i<len;i++){
-        if(i=='i'||i=='e'||i=='a'||i=='o'||i=='u'){
+        if(star[i]=='i'||star[i]=='e'||star[i]=='a'||star[i]=='o'||star[i]=='u'){
             count++;
         }
     }
-    printf("%i",count);
+    printf("%d",count);
 }
