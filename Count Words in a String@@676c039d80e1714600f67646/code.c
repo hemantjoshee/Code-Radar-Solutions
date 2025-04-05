@@ -9,11 +9,11 @@ int main(){
     int count=0;
 
     for(int i=0;star[i]!='\0';i++){
-        if(!ispace[i]&&isWord==0){
+        if(!isspace(star[i])&&isWord==0){
             count++;
             isWord++;
         }
-        if(ispace[i]){
+        if(isspace(i)){
             isWord--;
         }
     }
