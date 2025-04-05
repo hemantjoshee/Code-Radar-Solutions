@@ -10,5 +10,5 @@ int main(){
         str[i]=str[len-i-1];
         str[len-i-1]=str[i];
     }
-    printf("%c",str);
+    printf("%s",str);
 }
