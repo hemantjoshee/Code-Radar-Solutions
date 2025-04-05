@@ -13,7 +13,7 @@ int main(){
             count++;
             isWord++;
         }
-        if(isspace(i)){
+        if(isspace(star[i])){
             isWord--;
         }
     }
