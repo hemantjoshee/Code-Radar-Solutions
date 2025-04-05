@@ -3,7 +3,7 @@
 int main(){
     char star[100];
     fgets(star,sizeof(star),stdin);
-    star[stdcspn(star,"\n")]='\0';
+    star[strcspn(star,"\n")]='\0';
     int count=0;
     int len=strlen(star);
     for(int i=0;i<len;i++){
