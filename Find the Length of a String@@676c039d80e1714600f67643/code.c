@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 int main(){
     char star[100];
     fgets(star,sizeof(star),stdin);
