@@ -11,10 +11,10 @@ int main(){
     for(int i=0;star[i]!='\0';i++){
         if(!isspace(star[i])&&isWord==0){
             count++;
-            isWord++;
+            isWord=1;
         }
         if(isspace(star[i])){
-            isWord--;
+            isWord=0;
         }
     }
     printf("%d",count);
